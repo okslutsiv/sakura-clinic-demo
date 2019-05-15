@@ -1,5 +1,4 @@
 import React from "react";
-import Plyr from "react-plyr";
 import {
   withStyles,
   Paper,
@@ -22,14 +21,14 @@ const styles = theme => ({
     },
     "&>div>div": {
       maxWidth: 600,
-      width: "90%",
+      width: "100%",
       color: "white",
       margin: "0 auto "
     }
   },
   itemText: { color: "white" },
   player: {
-    padding: 4,
+    padding: 0,
     overflow: "hidden"
   }
 });
@@ -43,13 +42,30 @@ const SectionPlayer = ({ classes, id }) => {
     >
       <Grid item xs={12} md={6}>
         <Paper elevation={20} className={classes.player}>
-          <Plyr
-            muted
-            resetOnEnd
-            // autoplay
-            type="youtube" // or "vimeo"
-            videoId="r9Ia3mJHcIc"
-          />
+          <div
+            className="video"
+            style={{
+              position: "relative",
+              paddingBottom: "56.25%" /* 16:9 */,
+              paddingTop: 25,
+              height: 0
+            }}
+          >
+            <iframe
+              title="youtube"
+              muted
+              // resetOnEnd
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%"
+              }}
+              src={`https://www.youtube.com/embed/r9Ia3mJHcIc`}
+              frameBorder="0"
+            />
+          </div>
         </Paper>
       </Grid>
       <Grid item xs={12} md={6} container justify="center">

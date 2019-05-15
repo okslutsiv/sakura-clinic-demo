@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
+  "homepage": "https://okslutsiv.github.io/sakura-clinic-demo/",
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "3.9.3",
     "gh-pages": "^2.0.1",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-plyr": "2.2.0",
-    "react-scripts": "2.1.8",
-    "react-spring": "8.0.19"
+    "react-scripts": "2.1.8"
   },
   "devDependencies": {
     "typescript": "3.3.3"
@@ -19,7 +18,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build ",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
