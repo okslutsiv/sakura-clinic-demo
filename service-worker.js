@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sakura-clinic-demo/precache-manifest.6a982aaea2d8b50ad990db7d2fa9909f.js"
+  "/sakura-clinic-demo/precache-manifest.c04e71af16984c20263e4826eb4c17e5.js"
 );
 
 workbox.clientsClaim();

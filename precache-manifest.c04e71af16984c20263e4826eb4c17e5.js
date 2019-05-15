@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/sakura-clinic-demo/static/media/interior.22b34010.jpg"
   },
   {
-    "revision": "2cebc63f7c8e62deb118",
+    "revision": "b91efa0490c49d6906b3",
     "url": "/sakura-clinic-demo/static/css/main.389acdaf.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/sakura-clinic-demo/static/js/runtime~main.e91bed9c.js"
   },
   {
-    "revision": "56ddc6604709abaf9370",
-    "url": "/sakura-clinic-demo/static/js/2.1b0b2728.chunk.js"
+    "revision": "de7ab4b9d3ca445b5d17",
+    "url": "/sakura-clinic-demo/static/js/2.7911a0e6.chunk.js"
   },
   {
     "revision": "3dd7ea691ebcd5479af4a0ae5c11f02c",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/sakura-clinic-demo/static/media/CherryBlossomBgDark.614f68fa.jpg"
   },
   {
-    "revision": "2cebc63f7c8e62deb118",
-    "url": "/sakura-clinic-demo/static/js/main.cc984d00.chunk.js"
+    "revision": "b91efa0490c49d6906b3",
+    "url": "/sakura-clinic-demo/static/js/main.4931b4cf.chunk.js"
   },
   {
     "revision": "9a794f6af17a54cf6807a58dfaa073d6",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/sakura-clinic-demo/static/media/master3.d56f9486.png"
   },
   {
-    "revision": "327964998038a2c29ff24ad67f351c5f",
+    "revision": "252023636b0e5d43485dd5c8feaf612d",
     "url": "/sakura-clinic-demo/index.html"
   }
 ];
